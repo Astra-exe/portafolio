@@ -9,9 +9,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
+  name: "Juan Ramirez",
   logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  email: "juan.ramirez.j99@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -20,11 +20,11 @@ export const navBarLinks: NavBarLink[] = [
     url: "/",
   },
   {
-    title: "About",
+    title: "Sobre mi",
     url: "/about",
   },
   {
-    title: "Projects",
+    title: "Proyectos",
     url: "/projects",
   },
   {
@@ -50,22 +50,22 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Juan Ramirez",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Cientifico/Analista de datos JR",
   description:
     "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
   socialLinks: socialLinks,
   links: [
     {
-      title: "My Projects",
+      title: "Mis Proyectos",
       url: "/projects",
     },
     {
-      title: "About Me",
+      title: "Sobre mi",
       url: "/about",
     },
   ],
@@ -74,12 +74,12 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "Sobre mi | Juan Ramírez",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
+  subtitle: "Algo de info extra si quieres conocerme un poco más",
   about: {
     description: `
 I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
@@ -160,9 +160,9 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
+    title: "Blog | Juan Ramirez",
+    description: "Pensaientos, experiencias e ideas",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Pensaientos, experiencias e ideas",
 };

@@ -1,9 +1,9 @@
 ---
-title: "My First Blog Post with a very long name"
+title: "Prueba de blog jaja"
 pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
+description: "Hola perros"
+author: "Juan"
 image: { url: "/demo-1.jpg", alt: "Test" }
 ---
 
-This is test content
+Hola perros

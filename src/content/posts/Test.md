@@ -1,7 +1,7 @@
 ---
-title: "My First Blog Post with a very long name"
-pubDate: 2022-07-01 #Y-M-D
-description: "Test"
-author: "Tim"
+title: "Mi primer blog en mi portafolio web"
+pubDate: 2024-05-09 #Y-M-D
+description: "prueba de primer post"
+author: "Juan"
 image: { url: "/logo.webp", alt: "Test" }
 ---
