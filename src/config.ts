@@ -9,14 +9,14 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Juan Ramirez",
-  logo: "/logo.webp",
+  name: "Juan Ramírez",
+  logo: "/juan_logo_white.svg",
   email: "juan.ramirez.j99@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
   {
-    title: "Home",
+    title: "Inicio",
     url: "/",
   },
   {
@@ -36,13 +36,18 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/Astra-exe",
     icon: "mdi:github",
     external: true,
   },
   {
+    title: "Instagram",
+    url: "https://www.instagram.com/astra_exe/",
+    icon: "mdi:instagram",
+  },
+  {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:juan.ramirez.j99@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -52,12 +57,12 @@ export const homePageContent: HomePageContent = {
   seo: {
     title: "Juan Ramirez",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Soy un artista según Bukowski. Recién egresado de Ingeniería en Sistemas computacionales, especializándome en Analisis, Ciencia de datos y Machine Learning",
     image: identity.logo,
   },
-  role: "Cientifico/Analista de datos JR",
+  role: "Un artista, según Bukowski. Profesionalmente me desarrollo como Analista y Cientifico de datos Junior",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+      "Me gusta llamarme a mi mismo creador digital. Soy una persona apasionada por el desarrollo, la ciencia de datos y entusiasta del diseño. A veces escribo y tomo fotos por hobby.",
   socialLinks: socialLinks,
   links: [
     {
@@ -76,16 +81,19 @@ export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "Sobre mi | Juan Ramírez",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Me gusta llamarme a mi mismo creador digital. Soy una persona apasionada por el desarrollo, la ciencia de datos y entusiasta del diseño. A veces escribo y tomo fotos por hobby.",
     image: identity.logo,
   },
-  subtitle: "Algo de info extra si quieres conocerme un poco más",
+  subtitle: "Algo de info extra por si quieres conocerme un poco más",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+Me gusta llamarme a mi mismo creador digital. Soy una persona apasionada por el desarrollo, la ciencia de datos y entusiasta del diseño.
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+Tengo experiencia y conocimiento en Business Intelligence, herramientas de visualización de datos como Tableau, Google Looker Studio, Power BI y Excel. Además análisis, ciencia de datos y Machine Learning con Python, R, Pandas, Numpy y SciKitLearn.
+<br/><br/>
+Me encanta aprender cosas y ciencias nuevas, por esto es que puedo hacer diseño con Figma, Photoshop o Illustrator y Machine Learning al mismo tiempo, mis hemisferios cerebrales no están peleados.
+<br/><br/>
+En mi tiempo libre me encanta viajar en carretera, visitar y admirar la naturaleza, pasar tiempo con mi familia y mis mascotas, leer, escribir y tomar fotografías.`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -96,7 +104,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `Hola`, // Markdown is supported
     items: [
       {
         title: "Software Developer",
@@ -119,7 +127,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
     ],
   },
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: `Ahora que me conoces un poquito más, tal vez quieras seguir conectadx conmigo, compartir ideas, proyectos, pensamientos o fotografías. ¡Sígueme! 😉`, // Markdown is supported
     links: socialLinks,
   },
 };
@@ -161,8 +169,8 @@ export const projectsPageContent: ProjectPageContent = {
 export const blogPageContent: BlogPageContent = {
   seo: {
     title: "Blog | Juan Ramirez",
-    description: "Pensaientos, experiencias e ideas",
+    description: "Pensamientos, experiencias e ideas",
     image: identity.logo,
   },
-  subtitle: "Pensaientos, experiencias e ideas",
+  subtitle: "Pensamientos, experiencias e ideas",
 };
