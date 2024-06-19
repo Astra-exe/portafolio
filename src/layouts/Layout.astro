@@ -4,6 +4,8 @@ import { Icon } from "astro-icon/components";
 import { navBarLinks, identity } from "../config";
 import type { SEOInfo } from "../types/config";
 import { ViewTransitions } from "astro:transitions";
+import BackgroundStars from "../components/BackgroundStars.astro";
+
 
 interface Props {
   seo: SEOInfo;
@@ -62,6 +64,7 @@ const { seo } = Astro.props;
     <ViewTransitions />
   </head>
   <body>
+    <BackgroundStars/>
     <header>
       <div
         class="px-6 py-6 max-w-2xl mx-auto flex items-center justify-between"
